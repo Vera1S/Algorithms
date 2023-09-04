@@ -24,7 +24,6 @@ public class MaxNumber {
 //Шаг 5: Если x не совпадает ни с одним из элементов, выведите False.
 //Шаг 6: Конец
         int[] arr = {1, 52, 3, 9, 45};
-//        System.out.println("Максимальное число в массиве: " + findMax(arr, 52));
 //        public static int findMax(int) {
 //            if (arr.length == 0) {
 //              throw new IllegalArgumentException("Массив пуст");
