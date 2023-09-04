@@ -29,11 +29,11 @@ public class MaxNumber {
 //            if (arr.length == 0) {
 //              throw new IllegalArgumentException("Массив пуст");
 //            }
-        int max = arr[0]; // За изначальный максимум берем первый элемент массива
+        int max = arr[arr.length - 1];     //За изначальный максимум берем  с последнего элемента (первый элемент массива arr[0];)
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > max) {
                 max = arr[i];
-                System.out.println(arr[i]);
+                System.out.println("Максимальное число: " + arr[i]);
             }
         }
     }
